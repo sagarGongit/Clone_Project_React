@@ -28,7 +28,7 @@ body{
     z-index:1; 
     overflow:hidden;
     position: fixed;
-
+    height: 79px;
 }
 #smart-feature{
     display:flex;
@@ -77,23 +77,31 @@ height: 350px;
 }
 #category {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
     background-color: white;
-    font-size: 15px;
-    position: relative;
+    cursor: pointer;
+    width: 100%; 
+    top:80px;
+    z-index:1; 
+    overflow:hidden;
+    position: fixed;
 }
+
 #category a {
     text-decoration: none;
     font-size: 15px;
     color: black;
+    margin-left: 20px;
 }
+
 #selection {
     border-right: 1px solid lightgray;
-    
+    font-size: 15px;
+    margin-left: 15px;
 }
 #category div{
     padding: 10px;
-    position: relative;
 }
 #drop-img{
     width: 25px;
@@ -103,14 +111,17 @@ height: 350px;
 #category-drop {
     display: flex;
 }
+
 #selection {
     display: flex;
     gap: 20px;
 }
+
 #my-allegro-drop{
     display: flex;
     gap: 10px;
 }
+
 #slider2 {
     width: 100%;
     height: 250px;
@@ -121,17 +132,21 @@ height: 350px;
     text-align: center;
     overflow: auto;
 }
+
 #slider2::-webkit-scrollbar {
     display: none;
   }
+
 #slider2 img{
     width: 100px;
     height: 100px;
 }
+
 #card {
     padding: 6px;
     height: 160px;
 }
+
 #handles{
     display:flex;
     align-items: center;
@@ -139,11 +154,12 @@ height: 350px;
     margin-top: 20px;
     gap: 20px;
     overflow: auto;
-    
 }
+
 #handles::-webkit-scrollbar {
     display: none;
   }
+
 #handle-card{
     text-align: left;
     min-width: 220px;
@@ -196,14 +212,15 @@ span{
     height: 430px;
     padding: 20px;
 }
-#tag-ctn{
+#tag-ctn {
     position: absolute;
     bottom: 80px;
     width:150px;
     background-color: white;
     padding:20px;
 }
-#devices{
+
+#devices {
     display:flex;
     align-items: center;
     background-color: white;
@@ -212,31 +229,36 @@ span{
     overflow: auto;
     
 }
+
 #devices::-webkit-scrollbar {
     display: none;
   }
-#device-card{
+
+#device-card {
     text-align: left;
     min-width: 220px;
     height: 480px;
     padding: 10px;
 }
-#device-img{
+
+#device-img {
     width: 100%;
     height: 240px;
 }
-#devices p{
+
+#devices p {
     margin: 0;
     font-size: 14px;
 }
-#divices h2{
+
+#divices h2 {
     font-size: 30px;
     margin: 0;
 }
-#divices h5{
+#divices h5 {
     color: gray;
 }
-span{
+span {
     color: rgb(15, 214, 15);
 }
 #best-price-guarantee{
@@ -485,7 +507,7 @@ span{
     width: 100%;
     height: 450px;
     position:relative;
-    margin-top: 20px;
+    margin-top: 140px;
     background-color: white;
 }
 .slider-img{

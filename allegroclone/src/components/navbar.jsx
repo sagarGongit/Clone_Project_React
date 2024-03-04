@@ -26,7 +26,6 @@ function Navbar(){
   const handleOrder = () => {
     setorder(!order);
  }
-
     return  (
     <>
         <div id="navbar">
