@@ -409,7 +409,8 @@ span{
 #services a {
     text-decoration: none;
     color: black;
-    margin-right: 90px;
+    word-wrap: break-word;
+    margin-right: 20px;
 }
 #services div{
     padding-left: 20px;
