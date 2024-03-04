@@ -1,7 +1,7 @@
 function AllegroProtect(){
     return (
         <div>
-            coupons section
+            Allegro Protect
         </div>
     )
 }

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 
 function Catagory(){
- 
+
     return (
         <>
         <div id="category">

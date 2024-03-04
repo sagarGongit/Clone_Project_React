@@ -6,7 +6,7 @@ import Order from "./order";
 import { useState } from "react";
 
 function Navbar(){
-
+  
     const [showModal, setShowModal] = useState(false);
     const [notify,setnotify] = useState(false);
     const [com,setcom] = useState(false);

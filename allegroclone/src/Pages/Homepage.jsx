@@ -36,8 +36,8 @@ function HomePage(){
     return (
       <>
     <Navbar/>
-    {showCategory && <Catagory/>}
     <AllRoute/>
+    {showCategory && <Catagory/>}
     <Carousel/>
     <Inspiration/>
     <Handles/>

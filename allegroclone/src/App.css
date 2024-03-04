@@ -50,6 +50,7 @@ height: 350px;
 #search-box input{
     border: none;
     outline: none;
+    width:180px;
     font-size: 15px;
     margin-right: 50px;
     margin-top: 5px;
@@ -557,4 +558,15 @@ span{
 }
 .indicator-inactive {
     background-color:gray;
+}
+#captcha {
+    text-align: center;
+}
+#captcha h1{
+    margin-top: 120px;
+}
+#recap {
+  margin-top: 70px;
+   margin-left: 500px;
+
 }

@@ -1,7 +1,7 @@
 function Coupons(){
     return (
         <div>
-            coupons section
+            <h1>This is Coupons Page</h1>
         </div>
     )
 }
